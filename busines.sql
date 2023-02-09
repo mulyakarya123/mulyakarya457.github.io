@@ -1,0 +1,63 @@
+phpMyAdmin SQL Dump
+version 5.2.0
+https://www.phpmyadmin.net/
+
+Host: 127.0.0.1
+Waktu pembuatan: 09 Feb 2023 pada 17.30
+Versi server: 10.4.27-MariaDB
+Versi PHP: 8.1.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;
+!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;
+!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;
+!40101 SET NAMES utf8mb4 ;
+
+
+Database: `mulyakarya`
+
+
+
+
+
+Struktur dari tabel `busines`
+
+
+CREATE TABLE `busines` (
+  `HOME` int(35) NOT NULL,
+  `PROFILE` varchar(35) NOT NULL,
+  `SERAGAM` varchar(35) NOT NULL,
+  `KAOS` varchar(35) NOT NULL,
+  `BAJU` varchar(35) NOT NULL,
+  `CELANA` varchar(35) NOT NULL,
+  `CONTACT INFO` varchar(35) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=cp1250 COLLATE=cp1250_bin;
+
+
+Indexes for dumped tables
+
+
+
+Indeks untuk tabel `busines`
+
+ALTER TABLE `busines`
+  ADD PRIMARY KEY (`HOME`);
+
+
+AUTO_INCREMENT untuk tabel yang dibuang
+
+
+
+AUTO_INCREMENT untuk tabel `busines`
+
+ALTER TABLE `busines`
+  MODIFY `HOME` int(35) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
+!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT ;
+!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS ;
+!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION ;
